@@ -1,0 +1,323 @@
+img{
+    max-height: 90vh;
+}
+.overlay {                                                /* dark overlay for photos */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.heading-text{
+    font-family: "Karla", sans-serif;
+    font-size: 5vh;
+    color: rgb(231, 231, 231);
+}
+.h2-text{
+    font-family: "Karla", sans-serif;
+    font-size: 4vh;
+    color: rgb(231, 231, 231);
+}
+.h4-text{
+    font-family: "Karla", sans-serif;
+    color: rgb(231, 231, 231);
+}
+.nav-text{
+    font-family: "Karla", sans-serif;
+    font-size: 2.5vh;
+}
+.paragraph-text{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 200;
+    color: rgb(231, 231, 231);
+}
+.custom-container-header{
+    max-width: 80%;
+    padding-bottom: 5vh;
+}
+.btn-custom{                                                                /* BUTTONS SCREAM */
+    color: white;
+    background-color: #5F5FAF;
+    font-family: "Karla", sans-serif;
+    font-size: 3.5vh;
+    border-radius: 1vh;
+    padding: 0 4vh 0 4vh;
+    border: none;
+    margin-top: 2vh;
+}
+.btn-custom:hover{                                                                /* BUTTONS SCREAM */
+    color: white;
+    background-color: #23234b;
+}
+.btn-custom:focus{                                                                /* BUTTONS SCREAM */
+    color: white;
+    background-color: #23234b;
+}
+.main-text{                                                            /* COLOR OF ALL TEXT, EVERYTHERE*/  
+    color: rgb(231, 231, 231);
+}
+.nav-text .nav-link {
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+.nav-text .nav-link:hover {
+    color: #5F5FAF;
+}
+/* NAV BAR STARTS */
+.background-color{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar-custom{
+    background-color: #161738;
+}
+.navbar-custom .container{
+    max-width: 80%;
+}
+.navbar-toggler-icon{
+    background-image: url(../images/fishing-hook.svg);
+    color: white;
+}
+.navbar-toggler:focus{
+    box-shadow: none; 
+    border: none;
+}
+.navbar-toggler{
+    border: none;
+}
+.modal-content{
+    background-color: #161738;
+    color: white;
+}
+/* HEADER STARTS */
+.logo{
+    max-width: 15vh;
+    padding-bottom: 15px;
+}
+.header_background{
+    background-image: url(../images/heading-image-small.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 120px;
+    max-height: 100vh;
+    position: relative;
+}
+.header-content {
+    position: relative; 
+    z-index: 2;
+}
+.header_background-content{
+    background-color: #1d1d45a6;
+    padding-bottom: 2vh;
+}
+/* ABOUT STARTS */
+.about_main{
+    max-width: 80%;
+    margin-top: 20px;
+}
+/* FORMS*/
+.color-forms{
+    background-color: #3C3C72;
+}
+.forms_margin{
+    margin-top: 150px;
+}
+.custom-container-forms{
+    max-width: 80%;
+    margin: auto;
+}
+.forms-color{
+    background-color: #3C3C72;
+}
+/* ABOUT HEADER */
+.about_header {
+    position: relative;
+    background: url(../images/heading-image-small.jpg) no-repeat center center;
+    background-size: cover;
+}
+.header-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about_padding{
+    padding-top: 13vh;;
+}
+/* OUR SHARKS */
+.img-sharks{
+    max-height: 30vh;
+}
+.our-sharks {
+    background-color: #3C3C72;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.img_width{
+    max-width: 70%;
+}
+/* WORK TOGETHER PART */
+.work-together-background {
+    background-image: url(../images/waves-small.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.work-together-content {
+    padding: 8vh 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+/* SURVIVORS */
+.survivors_background{
+    background-image: url(../images/clouds-small.jpg);
+    background-size: cover;
+}
+.fixed{
+    max-width: 50vh;
+}
+/* OPTIONS */
+.web-design{
+    background-image: url(../images/web-dev-coding-small.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 30px;
+    position: relative;
+}
+.web-content{
+    position: relative;
+    z-index: 2;
+}
+.web-design::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 30px;
+}
+/*  */
+.web-dev{
+    background-image: url(../images/coding-small.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 30px;
+    position: relative;
+}
+.development-content{
+    position: relative;
+    z-index: 2;
+}
+.web-dev::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 30px;
+}
+/*  */
+.ui-design{
+    background-image: url(../images/designer-small.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 30px;
+    position: relative;
+}
+.ui-content{
+    position: relative;
+    z-index: 2;
+}
+.ui-design::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    border-radius: 30px;
+}
+/*  */
+.web-design,
+.web-dev,
+.ui-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.web-design .web-content,
+.web-dev .development-content,
+.ui-design .ui-content {
+  text-align: center;
+}
+.options-container {
+    display: block;
+}
+
+/* FOOTER */
+.footer_background{
+    background-color: #161738;
+    padding: 0.5vh 0;
+    margin-bottom: 0;
+}
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+}
+
+
+/* TABLETS AND BIGGER */
+@media (min-width: 768px) {
+    .header_background{
+        background-image: url(../images/heading-image-big.jpg);
+    }
+    .about_header {
+        background: url(../images/heading-image-big.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .work-together-background {
+        background-image: url(../images/waves-big.jpg);
+    }
+    .survivors_background{
+        background-image: url(../images/clouds-big.jpg);
+        background-size: cover;
+    }
+    .web-design{
+        background-image: url(../images/web-dev-coding-big.jpg);
+    }
+    .web-dev{
+        background-image: url(../images/coding-big.jpg);
+    }
+    .ui-design{
+        background-image: url(../images/designer-big.jpg);
+    }
+    .options-container {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+}
